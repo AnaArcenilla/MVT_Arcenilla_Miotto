@@ -16,6 +16,9 @@
             <th scope="col"><strong>Nombre</strong></th>
             <th scope="col"><strong>Apellido</strong></th>
             <th scope="col"><strong>Fecha de Nacimiento</strong></th>
+            <th scope="col"><strong>color_de_ojos</strong></th>
+            <th scope="col"><strong>altura</strong></th>
+            <th scope="col"><strong>ocupacion</strong></th>
           </tr>
          
         {% for persona in familiares %}
@@ -23,6 +26,9 @@
                 <td>{{persona.nombre}}</td>
                 <td>{{persona.apellido}}</td>
                 <td>{{persona.fecha_nacimiento}}</td>
+                <td>{{persona.color_de_ojos}}</td>
+                <td>{{persona.altura}}</td>
+                <td>{{persona.ocupacion}}</td>
             </tr>
          {% endfor %}
 
